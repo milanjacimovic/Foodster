@@ -9,7 +9,7 @@
 }
 
 .logo {
-    height: 100px;
+    height: 10rem;
 
 }
 
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 1rem 3rem;
 }
 
 nav ul {
@@ -28,12 +28,12 @@ nav ul {
         list-style: none;
 
         text-transform: uppercase;
-        letter-spacing: 5px;
+        letter-spacing: .5rem;
 
-        font-size: 18px;
+        font-size: 1.8rem;
 
         &:not(:last-child) {
-            padding-right: 20px;
+            padding-right: 2rem;
         }
 
         & a {
@@ -57,23 +57,23 @@ nav ul {
 
     &-main {
         display: block;
-        font-size: 60px;
-        font-weight: 400px;
-        letter-spacing: 30px;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3rem;
     }
 
     &-sub {
         display: block;
-        font-size: 30px;
+        font-size: 3rem;
         font-weight: 700;
-        letter-spacing: 29px;
+        letter-spacing: 2.9rem;
     }
 }
 
 
 @media screen and (max-width:750px) {
     .nav-box {
-        padding: 10px 10px;
+        padding: 1rem;
     }
 
     nav {
@@ -89,14 +89,14 @@ nav ul {
 
 
         &-main {
-            font-size: 45px;
-            letter-spacing: 20px;
+            font-size: 4.5rem;
+            letter-spacing: 2rem;
         }
 
         &-sub {
-            font-size: 30px;
-            letter-spacing: 15px;
-            word-spacing: 10px;
+            font-size: 3rem;
+            letter-spacing: 1.5rem;
+            word-spacing: 1rem;
 
         }
     }
@@ -105,14 +105,14 @@ nav ul {
 
 @media screen and (max-width:450px) {
     .nav-box {
-        padding: 10px 5px;
+        padding: 1rem .5rem;
     }
 
     nav ul li {
-        font-size: 14px;
+        font-size: 1.4rem;
 
         &:not(:last-child) {
-            padding-right: 0px;
+            padding-right: 0;
         }
     }
 
@@ -120,14 +120,14 @@ nav ul {
 
 
         &-main {
-            font-size: 35px;
-            letter-spacing: 7px;
+            font-size: 3.5rem;
+            letter-spacing: .7rem;
         }
 
         &-sub {
-            font-size: 25px;
-            letter-spacing: 5px;
-            word-spacing: 10px;
+            font-size: 2.5rem;
+            letter-spacing: .5rem;
+            word-spacing: 1rem;
 
         }
     }
