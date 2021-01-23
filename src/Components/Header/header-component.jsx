@@ -6,8 +6,8 @@ import Navigation from "../Navigation/navigation-component";
 const Header = () => {
   return (
     <header className="header">
-      <div className="nav-box">
-        <img src={Logo} alt="" className="logo" />
+      <div className="header__nav-box">
+        <img src={Logo} alt="" className="header__logo" />
         {/* <nav>
           <ul>
             <li>
@@ -29,10 +29,10 @@ const Header = () => {
         </nav> */}
         <Navigation />
       </div>
-      <div className="text-box">
+      <div className="header__text-box">
         <h1 className="heading-primary">
-          <span className="heading-primary-main">Foodster</span>
-          <span className="heading-primary-sub">bon appetit!</span>
+          <span className="heading-primary--main">Foodster</span>
+          <span className="heading-primary--sub">bon appetit!</span>
         </h1>
       </div>
     </header>

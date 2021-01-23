@@ -4,7 +4,7 @@
     color: #000;
 
 
-    &-heading {
+    &__heading {
         text-align: center;
         font-size: 3rem;
         font-weight: 400;
@@ -13,7 +13,7 @@
         margin-bottom: 3rem;
     }
 
-    &-box {
+    &__box {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -21,20 +21,20 @@
 
     }
 
-    &-card {
+    &__card {
         width: 20%;
         background: #fff;
         border: 1px solid #ccc;
         margin-bottom: 5rem;
 
-        &-header {
+        &--header {
             text-align: center;
             padding: 5rem 1rem;
             background: linear-gradient(to right, #ff416c, #ff4b2b);
             color: #fff;
         }
 
-        &-body {
+        &--body {
             padding: 3rem 2rem;
             text-align: center;
             font-size: 1.8rem;
@@ -49,7 +49,7 @@
 
 
 @media screen and (max-width:1000px) {
-    .about-card {
+    .about__card {
         width: 40%;
     }
 
@@ -59,12 +59,12 @@
     .about {
         width: 100%;
 
-        &-heading {
+        &__heading {
             padding: 2rem;
             font-size: 2rem;
         }
 
-        &-card {
+        &__card {
             width: 80%;
         }
     }

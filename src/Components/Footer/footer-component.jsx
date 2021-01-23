@@ -4,8 +4,8 @@ import "./footer.styles.scss";
 
 const Footer = () => (
   <footer className="footer" id="footer">
-    <div className="footer-row">
-      <div className="footer-row-col1">
+    <div className="footer__row">
+      <div className="footer__row--col1">
         <ul>
           <li>
             <a href="#home">Home</a>
@@ -21,7 +21,7 @@ const Footer = () => (
           </li>
         </ul>
       </div>
-      <div className="footer-row-col2">
+      <div className="footer__row--col2">
         <ul>
           <li>
             <a href="https://github.com/milanjacimovic" target="_blank" rel="noreferrer">
@@ -46,11 +46,11 @@ const Footer = () => (
         </ul>
       </div>
     </div>
-    <div className="footer-about">Copyright © 2021 by Milan Jaćimović.</div>
-    <div className="download">
+    <div className="footer__about">Copyright © 2021 by Milan Jaćimović.</div>
+    <div className="footer__download">
       <a
         // CV link will be fixed before the production
-        className="btn btn-white btn-animated"
+        className="btn btn--white btn--animated"
         href="pizza-wine.jpeg"
         download="Milan Jaćimović CV"
         target="_blank"

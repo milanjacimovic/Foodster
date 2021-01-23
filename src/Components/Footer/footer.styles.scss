@@ -7,14 +7,14 @@
     background-color: $third-color;
     font-size: 2rem;
 
-    &-row {
+    &__row {
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 20rem;
         padding: 3rem 10%;
 
-        &-col1 {
+        &--col1 {
             & ul {
                 list-style: none;
                 display: flex;
@@ -32,7 +32,7 @@
             }
         }
 
-        &-col2 {
+        &--col2 {
 
 
             & ul {
@@ -53,7 +53,7 @@
         }
     }
 
-    &-about {
+    &__about {
         text-align: center;
         margin-bottom: 3rem;
     }
@@ -85,7 +85,7 @@
     }
 }
 
-.download {
+.footer__download {
 
     padding-bottom: 5rem;
     text-align: center;
@@ -116,7 +116,7 @@
         box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.4);
     }
 
-    & .btn-white {
+    & .btn--white {
         background-color: #fff;
         color: $third-color;
     }
@@ -127,20 +127,20 @@
 @media screen and (max-width:750px) {
     .footer {}
 
-    .footer-row {
+    .footer__row {
         flex-wrap: wrap;
         justify-content: center;
 
 
 
-        &-col1 {
+        &--col1 {
             margin: 0 3rem;
             font-size: 1.8rem;
             text-align: center;
             // padding-bottom: 10px;
         }
 
-        &-col2 {
+        &--col2 {
 
             & ul {
 

@@ -8,12 +8,12 @@
     position: relative;
 }
 
-.logo {
+.header__logo {
     height: 10rem;
 
 }
 
-.nav-box {
+.header__nav-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ nav ul {
     }
 }
 
-.text-box {
+.header__text-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,14 +55,14 @@ nav ul {
     color: $main-color;
     text-transform: uppercase;
 
-    &-main {
+    &--main {
         display: block;
         font-size: 6rem;
         font-weight: 400;
         letter-spacing: 3rem;
     }
 
-    &-sub {
+    &--sub {
         display: block;
         font-size: 3rem;
         font-weight: 700;
@@ -72,7 +72,7 @@ nav ul {
 
 
 @media screen and (max-width:750px) {
-    .nav-box {
+    .header__nav-box {
         padding: 1rem;
     }
 
@@ -83,17 +83,17 @@ nav ul {
 
     }
 
-    .text-box {}
+    .header__text-box {}
 
     .heading-primary {
 
 
-        &-main {
+        &--main {
             font-size: 4.5rem;
             letter-spacing: 2rem;
         }
 
-        &-sub {
+        &--sub {
             font-size: 3rem;
             letter-spacing: 1.5rem;
             word-spacing: 1rem;
@@ -104,7 +104,7 @@ nav ul {
 }
 
 @media screen and (max-width:450px) {
-    .nav-box {
+    .header__nav-box {
         padding: 1rem .5rem;
     }
 
@@ -119,12 +119,12 @@ nav ul {
     .heading-primary {
 
 
-        &-main {
+        &--main {
             font-size: 3.5rem;
             letter-spacing: .7rem;
         }
 
-        &-sub {
+        &--sub {
             font-size: 2.5rem;
             letter-spacing: .5rem;
             word-spacing: 1rem;
