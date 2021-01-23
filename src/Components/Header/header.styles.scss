@@ -1,0 +1,135 @@
+@import '../../App.styles.scss';
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.logo {
+    height: 100px;
+
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+nav ul {
+    display: flex;
+
+
+    & li {
+        list-style: none;
+
+        text-transform: uppercase;
+        letter-spacing: 5px;
+
+        font-size: 18px;
+
+        &:not(:last-child) {
+            padding-right: 20px;
+        }
+
+        & a {
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+}
+
+.text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.heading-primary {
+    color: $main-color;
+    text-transform: uppercase;
+
+    &-main {
+        display: block;
+        font-size: 60px;
+        font-weight: 400px;
+        letter-spacing: 30px;
+    }
+
+    &-sub {
+        display: block;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 29px;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .nav-box {
+        padding: 10px 10px;
+    }
+
+    nav {
+        & ul {
+            display: block;
+        }
+
+    }
+
+    .text-box {}
+
+    .heading-primary {
+
+
+        &-main {
+            font-size: 45px;
+            letter-spacing: 20px;
+        }
+
+        &-sub {
+            font-size: 30px;
+            letter-spacing: 15px;
+            word-spacing: 10px;
+
+        }
+    }
+
+}
+
+@media screen and (max-width:450px) {
+    .nav-box {
+        padding: 10px 5px;
+    }
+
+    nav ul li {
+        font-size: 14px;
+
+        &:not(:last-child) {
+            padding-right: 0px;
+        }
+    }
+
+    .heading-primary {
+
+
+        &-main {
+            font-size: 35px;
+            letter-spacing: 7px;
+        }
+
+        &-sub {
+            font-size: 25px;
+            letter-spacing: 5px;
+            word-spacing: 10px;
+
+        }
+    }
+
+}
