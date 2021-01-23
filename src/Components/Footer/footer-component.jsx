@@ -49,6 +49,7 @@ const Footer = () => (
     <div className="footer-about">Copyright © 2021 by Milan Jaćimović.</div>
     <div className="download">
       <a
+        // CV link will be fixed before the production
         className="btn btn-white btn-animated"
         href="pizza-wine.jpeg"
         download="Milan Jaćimović CV"
